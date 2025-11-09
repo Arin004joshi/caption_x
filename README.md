@@ -46,12 +46,12 @@ Execute the script from your activated virtual environment:
 python app.py
 ```
 
-### 4. Technical Details
-The application uses the following configuration:
+### 💻 Technical Details
 
-Setting,Value,Purpose
-Whisper Model,tiny.en (CPU Optimized),Smallest English-only model for speed and low latency.
-Input Sample Rate,48000 Hz (2 Channels),Matches common Windows hardware default for stream reliability.
-Processing Sample Rate,16000 Hz (Mono),Required input format for the Whisper model.
-Chunk Duration,5 seconds,Provides a balance between accuracy and real-time latency.
-VAD Threshold,10 (RMS),Low sensitivity to accommodate muted/low-gain microphones.
+| Setting | Value | Purpose |
+| :--- | :--- | :--- |
+| **Whisper Model** | `tiny.en` (CPU Optimized) | Smallest English-only model for speed and low latency. |
+| **Input Sample Rate** | 48000 Hz (2 Channels) | Matches common Windows hardware default for stream reliability. |
+| **Processing Sample Rate** | 16000 Hz (Mono) | Required input format for the Whisper model. |
+| **Chunk Duration** | 5 seconds | Provides a balance between accuracy and real-time latency. |
+| **VAD Threshold** | 10 (RMS) | Low sensitivity to accommodate muted/low-gain microphones. |
