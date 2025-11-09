@@ -28,7 +28,10 @@ source venv/bin/activate
 
 ### 2. Install Dependencies
 Install all required Python packages using pip:
-```pip install torch openai-whisper sounddevice soundfile numpy scipy```
+
+``` bash 
+pip install torch openai-whisper sounddevice soundfile numpy scipy
+```
 
 🚀 Getting Started
 1. Save the Code
