@@ -32,7 +32,7 @@ pip install torch openai-whisper sounddevice soundfile numpy scipy
 
 🚀 Getting Started
 1. Save the Code
-Save the main Python script as app.py.
+Save the main Python script as ```app.py```.
 
 2. Check Microphone Access (Windows)Due to conflicts with Intel/Realtek "Smart Audio" drivers, ensure the following steps are performed:
    1. Disable Enhancements: Open Sound Settings $\rightarrow$ Recording $\rightarrow$ Right-click your selected mic $\rightarrow$ Properties $\rightarrow$ Advanced tab $\rightarrow$ UNCHECK "Enable audio
@@ -42,10 +42,9 @@ Save the main Python script as app.py.
 
 ### 3. Run the Application
 Execute the script from your activated virtual environment:
-
-Bash
-
+```bash
 python app.py
+```
 
 ### 4. Technical Details
 The application uses the following configuration:
