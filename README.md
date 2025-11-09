@@ -42,6 +42,9 @@ Save the main Python script as app.py.
 
 ### 3. Run the Application
 Execute the script from your activated virtual environment:
+
+Bash
+
 python app.py
 
 ### 4. Technical Details
